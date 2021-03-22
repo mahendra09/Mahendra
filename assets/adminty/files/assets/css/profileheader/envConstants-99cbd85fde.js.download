@@ -1,0 +1,10 @@
+angular.module("envConstants", [])
+
+.constant("EnvironmentConstants", {
+	"auditApiCrudEndpoint": "https://kekaevents.azurewebsites.net/api/crud",
+	"auditApiTrackEndPoint": "https://kekaevents.azurewebsites.net/api/track",
+	"amplitudeApiKey": "56fe17c56b84cb85e621ab9116e94cdc",
+	"amplitudeTrackingApiUrl": "https://api.amplitude.com/2/httpapi"
+})
+
+;
